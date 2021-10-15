@@ -1,0 +1,103 @@
+*{
+    background-color: black;
+    margin: 0;
+}
+.logo{
+    text-align: center;
+}
+.logo >img{
+    width: 300px;
+}
+.block_1{
+    text-align: center;
+}
+.block_1 >img{
+    width: 350px;
+}
+.block_2{
+    background-image: url('../img/hookah_2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    z-index: 3; 
+    margin: 30px 0 40px 0;
+}
+.block_2:before {
+    background: rgb(0 0 0 / 30%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1
+}
+.block_2 h1{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 25px;
+}
+.carousel h1{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.block_3{
+    background-image: url('../img/guests.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    z-index: 3; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.block_3:before {
+    background: rgb(0 0 0 / 70%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1
+}
+.block_3__item1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.block_3__item1 h1{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.block_4 h1{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block_4__item1{
+    margin: 0 25px 20px 25px;
+}
+.block_4__item1__icon{
+    margin-bottom: 10px;
+}
+.block_4__item1__text{
+    display: inline-block;
+    margin: 0 10px;
+}
