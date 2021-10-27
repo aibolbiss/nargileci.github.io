@@ -1,20 +1,46 @@
 *{
-    background-color: #cbbca8;
+    margin: 0;
+    padding: 0;
 }
-.block1{
-    text-align: center;
-    margin-top: 100px;
+.main{
+    background-image: url('../img/Burj_Khalifa.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    position: relative;
+    height: 100vh;
+    z-index: 3;
 }
-.block1__logo{
-    width: 200px;
-}
-.block2{
-    position: fixed;
-    bottom: 0;
-    margin-right: 7px;
-}
-.block2 img{
-    background-color: white;
+.main:before {
+    background: rgb(0 0 0 / 60%);
+    content: "";
+    position: absolute;
     width: 100%;
-    margin-bottom: 5px;
+    height: 100vh;
+    z-index: -1
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+}
+.logo > img{
+    width: 100%;
+}
+.buttons{
+    margin: 0 10px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center;
+}
+a{
+    border: 1px solid white;
+    height: 40px;
+    width: 50%;
+    margin: 10px 5px 0 5px;
+    padding: 5px;
+}
+a > img{
+    width: 100%;
 }
